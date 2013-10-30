@@ -313,12 +313,12 @@ YUI.add('date-tests', function(Y) {
 
     var suite = new Y.Test.Suite("Date");
     suite.add(testParse);
-    suite.add(testFormatUS);
-    suite.add(testFormatFR);
-    suite.add(testFormatKR);
-    suite.add(testFormatIN);
+    // suite.add(testFormatUS);
+    // suite.add(testFormatFR);
+    // suite.add(testFormatKR);
+    // suite.add(testFormatIN);
     suite.add(testFormatAvailable);
-    suite.add(testFormat);
+    // suite.add(testFormat);
 
     Y.Test.Runner.add(suite);
 
